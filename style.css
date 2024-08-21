@@ -1,0 +1,281 @@
+* {
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+body {
+    background-color: white;
+}
+nav {
+    background-color: white;
+    height: 100px;
+    margin: 0;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+nav ul li {
+    list-style: none;
+    margin: 10px;
+    font-weight: 500;
+    font-size: 15px;
+}
+nav ul li img {
+    height: 75px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: darkblue;
+    padding: 15px;
+}
+nav ul li span {
+    background-color: red;
+    border-radius: 15px;
+    padding: 15px;
+}
+nav ul li span a {
+    color: white;
+}
+.Video-Profiles {
+  position: relative;
+  height: 500px; /* Sesuaikan tinggi sesuai kebutuhan */
+}
+
+#myVideo {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+
+  .dropdown .tombol_turun {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+  }
+  
+
+  .navbar a:hover, .dropdown:hover .tombol_turun {
+    background-color: red;
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 14px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+nav a:hover {
+    color: #d9534f;
+}
+
+.button {
+    background-color: #C40C0C;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover { 
+    background-color: #c9302c;
+}
+
+.summary {
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  margin: 20px 0;
+}
+
+.summary ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.summary ul li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.data-visualization {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.data-visualization .total-participants p {
+  font-size: 48px;
+  color: #E74C3C; /* Merah */
+}
+section .event {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 100vh;
+}
+.event-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin: 15px;
+  width: 300px; /* Sesuaikan lebar sesuai kebutuhan */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.event-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.event-image {
+  width: 250px;
+  height: 300px;
+  object-fit: cover; /* Mengisi seluruh area gambar tanpa merusak aspek rasio */
+  margin-bottom: 10px;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 30px 0;
+    display: flex;
+    width: 100%;
+    position: relative;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .logo_f {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .logo_f img {
+    width: 100px;
+  }
+  
+  .log_f p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .contact a i {
+    margin-right: 10px;
+  }
+  
+  .social {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social a {
+  
+    width: 30px;
+    height: 30px;
+    background-color: #ca6363;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .links h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .links a {
+    display: flex;
+    margin-bottom: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+
+  .links a:hover{
+    color: red;
+  }
